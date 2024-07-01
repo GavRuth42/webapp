@@ -6,14 +6,16 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://your-api-endpoint/login', {
+      const response = await axios.post('http://localhost:3000/login', {
         email,
         password
       });
+      setMessage(response.data.message);
       // Handle successful login (e.g., store token, redirect)
       console.log(response.data);
     } catch (err) {
@@ -22,11 +24,11 @@ const Login = () => {
   };
 
   return (
- 
-   <div>
+    <div>
+      <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <div>
-          <label>        -           Email:      </label>
+          <label>Email:</label>
           <input
             type="email"
             value={email}
@@ -34,7 +36,7 @@ const Login = () => {
           />
         </div>
         <div>
-          <label>         -          Password:     </label>
+          <label>Password:</label>
           <input
             type="password"
             value={password}
@@ -42,7 +44,8 @@ const Login = () => {
           />
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit">   Enter   </button>
+        {message && <p style={{ color: 'green' }}>{message}</p>}
+        <button type="submit">Login</button>
       </form>
     </div>
   );
