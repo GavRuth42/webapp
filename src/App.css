@@ -1,20 +1,18 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: blue; /* Set the background color to blue */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1s linear;
-  }
-}
-
 .App-header {
-  background-color: #00ff00;
+  background-color: blue; /* Ensure header background is blue */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +22,47 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: hotpink; /* Set the main title color to hot pink */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: green; /* Set the login title color to green */
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid hotpink; /* Border color set to hot pink */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid hotpink; /* Border color set to hot pink */
+  border-radius: 5px;
+}
+
+button {
+  background-color: green; /* Button background color set to green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: hotpink; /* Button background color on hover set to hot pink */
 }
