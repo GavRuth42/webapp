@@ -1,10 +1,14 @@
 // backend/index.js
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Dummy users for demonstration
 const users = [
