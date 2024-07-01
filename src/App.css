@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -27,40 +27,42 @@ h1 {
 }
 
 h2 {
-  color: green; /* Set the login title color to green */
+  color: #00FF00; /* Set the login title color to green */
 }
 
 form {
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid hotpink; /* Border color set to hot pink */
-  border-radius: 10px;
-  padding: 20px;
-  max-width: 300px;
+  padding: 100px;
+  max-width: 450px;
   margin: 20px auto;
+  align-items: center;
 }
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: white;
+
 }
 
 input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid hotpink; /* Border color set to hot pink */
-  border-radius: 5px;
+  padding: 10px 8px;
+  margin-bottom: 20px;
+  border: 2px solid hotpink; /* Border color set to hot pink */
+  border-radius: 15px;
+  align-items: center;
 }
 
 button {
-  background-color: green; /* Button background color set to green */
-  color: white;
-  padding: 10px 15px;
+  background-color: #00FF00; /* Button background color set to green */
+  color: #000000;
+  padding: 10px 216px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  align-items: center;
 }
 
 button:hover {

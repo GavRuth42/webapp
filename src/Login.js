@@ -22,11 +22,11 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+ 
+   <div>
       <form onSubmit={handleLogin}>
         <div>
-          <label>Email:</label>
+          <label>        -           Email:      </label>
           <input
             type="email"
             value={email}
@@ -34,7 +34,7 @@ const Login = () => {
           />
         </div>
         <div>
-          <label>Password:</label>
+          <label>         -          Password:     </label>
           <input
             type="password"
             value={password}
@@ -42,7 +42,7 @@ const Login = () => {
           />
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit">Login</button>
+        <button type="submit">   Enter   </button>
       </form>
     </div>
   );

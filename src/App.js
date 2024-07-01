@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello Again!, please enter your credentials, Moonchild.</h1>
+        <h1>Hello Again! Please enter your credentials, Moonchild.</h1>
         <Login />
       </header>
     </div>
