@@ -4,7 +4,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blue; /* Set the background color to blue */
+  background-image: url("https://media1.tenor.com/m/wIa91mot0tAAAAAd/pixel-city-chill.gif");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .App {
@@ -12,52 +16,52 @@ body {
 }
 
 .App-header {
-  background-color: blue; /* Ensure header background is blue */
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(5px + 2vmin);
-  color: white;
+  font-size: calc(10px + 2vmin);
+  color: rgb(215, 14, 14);
 }
 
 h1 {
-  color: hotpink; /* Set the main title color to hot pink */
+  color: rgb(0, 251, 255); /* Set the main title color to hot pink */
 }
 
 h2 {
-  color: #00FF00; /* Set the login title color to green */
+  color: #ff0000; /* Set the login title color to green */
 }
 
 form {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 0, 255, 0);
   padding: 100px;
   max-width: 450px;
-  margin: 20px auto;
+  margin: 0px auto;
   align-items: center;
 }
 
 label {
   display: block;
   margin-bottom: 10px;
-  color: white;
-
+  color: rgb(0, 255, 255);
+  align-items: center;
 }
 
 input {
   width: 100%;
   padding: 10px 8px;
   margin-bottom: 20px;
-  border: 2px solid hotpink; /* Border color set to hot pink */
-  border-radius: 15px;
+  border: 2px solid rgb(173, 2, 252); /* Border color set to hot pink */
+  border-radius: 0px;
   align-items: center;
 }
 
 button {
-  background-color: #00FF00; /* Button background color set to green */
+  background-color: #ae00ff; /* Button background color set to green */
   color: #000000;
-  padding: 10px 216px;
+  padding: 10px 215px;
   border: none;
   border-radius: 5px;
   cursor: pointer;

@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello Again! Please enter your credentials, Moonchild.</h1>
-        <Login />
+        <h1>Hello Again! Please enter your account information below! </h1>
+      <Login/>
       </header>
     </div>
   );
