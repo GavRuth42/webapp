@@ -8,9 +8,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <h1>Hello Again! Please enter your account information below!</h1>
-        </header>
+        
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
