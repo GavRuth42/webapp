@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("https://media1.tenor.com/m/wIa91mot0tAAAAAd/pixel-city-chill.gif");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .home-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a slight dark overlay for readability */
+  }
+  
+  h1 {
+    color: rgb(0, 251, 255); /* Cyan color */
+    font-size: calc(10px + 2vmin);
+  }
+  
+  p {
+    color: #ff0000; /* Red color */
+    font-size: calc(8px + 2vmin);
+  }
+  
