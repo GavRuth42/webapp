@@ -13,18 +13,21 @@ body {
 
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-header {
-
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(215, 14, 14);
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a slight dark overlay for readability */
+  padding: 20px;
+  width: 100%;
 }
+
 
 h1 {
   color: rgb(0, 251, 255); /* Set the main title color to hot pink */
